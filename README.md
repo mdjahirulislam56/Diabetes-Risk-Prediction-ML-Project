@@ -1,8 +1,8 @@
-# End-to-End Diabetes Prediction
+# Diabetes-Risk-Prediction-ML-Project
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Model](https://img.shields.io/badge/Model-XGBoost-orange)
-![Deployment](https://img.shields.io/badge/App-Streamlit%2FFlask-green)
+![Deployment](https://img.shields.io/badge/App-Gradio-FF7C00)
 
 ## 📖 Overview
 This project implements a complete machine learning pipeline to predict the likelihood of diabetes in patients based on diagnostic measures. 
