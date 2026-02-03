@@ -10,10 +10,10 @@ This project implements a complete machine learning pipeline to predict the like
 The solution covers the entire workflow from **Exploratory Data Analysis (EDA)** and data preprocessing to **Model Training** using XGBoost and **Deployment** via a user-friendly web interface. It is designed to demonstrate a production-ready approach to medical classification tasks.
 
 ## 📂 Project Structure
-* **`End_to_End_Diabetes_Prediction.ipynb`**: The main notebook containing dataset loading, in-depth EDA, feature engineering, and initial model experimentation.
-* **`Xgboost_train.py`**: A modular Python script dedicated to training the final XGBoost model and saving the artifacts for production.
-* **`app.py`**: The web application file that loads the trained model and provides a frontend for users to input data and get predictions.
-* **`requirements.txt`**: Lists all the Python dependencies required to run the project.
+* **`End_to_End_Diabetes_Prediction.ipynb`**: The main Jupyter Notebook that handles data loading, Exploratory Data Analysis (EDA), feature engineering, and the initial training logic.
+* **`Xgboost_train.py`**: A modular Python script used to train the final XGBoost model and save the model artifacts (like `xgb_model.json` or `.pkl` files) for deployment.
+* **`app.py`**: The deployment script built with **Gradio**. It loads the trained model and launches a web-based interface for real-time predictions.
+* **`requirements.txt`**: A text file listing all necessary Python libraries (e.g., `xgboost`, `scikit-learn`, `gradio`) to ensure the environment is set up correctly.
 
 ## 📊 Dataset
 The dataset handling and loading mechanisms are integrated directly within the **`End_to_End_Diabetes_Prediction.ipynb`** notebook. 
