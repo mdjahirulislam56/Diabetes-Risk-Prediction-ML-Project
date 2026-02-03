@@ -74,7 +74,3 @@ The project utilizes **XGBoost** for its efficiency and accuracy on structured d
 ---
 
 *This project serves as a demonstration of an end-to-end machine learning workflow, from raw data to a deployed application.*
-
-```
-
-```
